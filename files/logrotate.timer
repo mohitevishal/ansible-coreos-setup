@@ -1,0 +1,7 @@
+[Unit]
+Description=Hourly Log Rotation
+
+[Timer]
+OnCalendar=hourly
+AccuracySec=1h
+Persistent=true
